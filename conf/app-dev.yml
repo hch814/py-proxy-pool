@@ -1,0 +1,11 @@
+redis:
+  server: "localhost:6379"
+  max-pool-size: 5
+  ip-pool-key: "spider:pool:ip"
+
+proxy:
+  zhima: "spider:proxy:zhima"
+
+server:
+  ip: "localhost"
+  port: 5000
