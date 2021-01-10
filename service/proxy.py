@@ -51,6 +51,8 @@ class ProxyService:
             r = resp.text.strip()
             print('zhima:', r)
             return r, int(time.time()) + zhima_time
+        else:
+            return None, None
 
 
 if __name__ == '__main__':

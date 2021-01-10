@@ -20,6 +20,6 @@ class Const:
 
     @classmethod
     def show(cls):
-        for k, v in vars(Const).items():
+        for k, v in vars(cls).items():
             if not k.startswith("_") and not isinstance(v, classmethod):
                 print(k, ':', v)
